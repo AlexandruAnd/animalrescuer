@@ -19,17 +19,17 @@ public class App
         pet1.healthLevel = 8;
         pet1.hungerLevel = 7;
         pet1.moodLevel = 6;
-        pet1.pet_name = "Lessie";
+        pet1.name = "Lessie";
 
-        System.out.println("Numele este: " + pet1.pet_name);
+        System.out.println("Numele este: " + pet1.name);
 
         Owner owner1 = new Owner();
         owner1.availableMoney = 350.25;
-        owner1.ownerName = "Alex";
+        owner1.name = "Alex";
 
         Food food1 = new Food();
         food1.expirationDate = LocalDate.now().plusDays(30);
-        food1.foodName = "Dog Food";
+        food1.name = "Dog Food";
         food1.foodPrice = 18.5;
         food1.stock = 138;
 
@@ -37,14 +37,14 @@ public class App
 
         Vet vet1 = new Vet();
         vet1.specialization = "Doctor";
-        vet1.vetName = "Jon";
+        vet1.name = "Jon";
 
-        System.out.println("Numele veterinarului este : " + vet1.vetName);
+        System.out.println("Numele veterinarului este : " + vet1.name);
 
         Activity activity1 = new Activity();
-        activity1.activityName = "running";
+        activity1.name = "running";
 
-        System.out.println("Activitatea este : " + activity1.activityName);
+        System.out.println("Activitatea este : " + activity1.name);
 
 
 

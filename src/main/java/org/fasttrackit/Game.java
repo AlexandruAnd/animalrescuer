@@ -1,8 +1,8 @@
 package org.fasttrackit;
 
 public class Game {
-    String ownerName;
-    String Dog;
-    String vetName;
+    Owner owner;
+    Dog dog;
+    Vet vet;
 
 }

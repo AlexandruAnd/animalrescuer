@@ -2,7 +2,7 @@ package org.fasttrackit;
 
 public class Owner {
 
-    String ownerName;
+    String name;
     double availableMoney;
 
 }

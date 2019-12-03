@@ -2,7 +2,7 @@ package org.fasttrackit;
 
 public class Pet {
 
-    String pet_name;
+    String name;
     String favoriteFood;
     String favoriteActivity;
     int moodLevel;

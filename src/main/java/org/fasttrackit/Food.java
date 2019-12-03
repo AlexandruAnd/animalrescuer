@@ -4,8 +4,8 @@ import java.time.LocalDate;
 
 public class Food {
 
-    String foodName;
+    String name;
     double foodPrice;
     int stock;
-    LocalDate expirationDate = LocalDate.now();
+    LocalDate expirationDate;
 }

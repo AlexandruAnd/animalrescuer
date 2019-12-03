@@ -2,7 +2,7 @@ package org.fasttrackit;
 
 public class Vet {
 
-    String vetName;
+    String name;
     String specialization;
 
 }
