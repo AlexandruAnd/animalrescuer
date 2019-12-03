@@ -9,4 +9,14 @@ public class Pet {
     int age;
     int hungerLevel;
     int healthLevel;
+
+    public Pet(String favoriteFood, String favoriteActivity) {
+        this.favoriteFood = favoriteFood;
+        this.favoriteActivity = favoriteActivity;
+    }
+  private Pet pet;
+
+    public Pet() {
+
+    }
 }

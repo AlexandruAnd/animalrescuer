@@ -27,13 +27,17 @@ public class App
         owner1.availableMoney = 350.25;
         owner1.name = "Alex";
 
-        Food food1 = new Food();
-        food1.expirationDate = LocalDate.now().plusDays(30);
-        food1.name = "Dog Food";
-        food1.foodPrice = 18.5;
-        food1.stock = 138;
 
-        System.out.println( "data exp : " + food1.expirationDate);
+
+
+
+        Food food = new Food();
+        food.expirationDate = LocalDate.now().plusDays(30);
+        food.name = "Dog Food";
+        food.foodPrice = 18.5;
+        food.stock = 138;
+
+        System.out.println( "data exp : " + food.expirationDate);
 
         Vet vet1 = new Vet();
         vet1.specialization = "Doctor";

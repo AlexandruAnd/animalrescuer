@@ -8,4 +8,14 @@ public class Food {
     double foodPrice;
     int stock;
     LocalDate expirationDate;
+   private Food food;
+
+    public Food(Food food) {
+        this.food = food;
+    }
+
+
+    public Food() {
+
+    }
 }
