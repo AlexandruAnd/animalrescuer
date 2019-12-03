@@ -7,5 +7,5 @@ public class Food {
     String foodName;
     double foodPrice;
     int stock;
-    LocalDate expirationDate = LocalDate.now().plusDays(30);
+    LocalDate expirationDate = LocalDate.now();
 }

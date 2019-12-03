@@ -16,9 +16,9 @@ public class App
         pet1.age = 2;
         pet1.favoriteActivity = "running";
         pet1.favoriteFood = "milk";
-        pet1.health = 8;
-        pet1.hunger = 7;
-        pet1.mood = 6;
+        pet1.healthLevel = 8;
+        pet1.hungerLevel = 7;
+        pet1.moodLevel = 6;
         pet1.pet_name = "Lessie";
 
         System.out.println("Numele este: " + pet1.pet_name);

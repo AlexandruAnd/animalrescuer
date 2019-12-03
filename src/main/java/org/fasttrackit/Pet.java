@@ -5,8 +5,8 @@ public class Pet {
     String pet_name;
     String favoriteFood;
     String favoriteActivity;
-    int mood;
+    int moodLevel;
     int age;
-    int hunger;
-    int health;
+    int hungerLevel;
+    int healthLevel;
 }
