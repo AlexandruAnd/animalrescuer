@@ -13,7 +13,6 @@ public class App
         System.out.println( "Welcome to the Game" );
 
         Pet pet1 = new Pet();
-        pet1.age = 2;
         pet1.favoriteActivity = "running";
         pet1.favoriteFood = "milk";
         pet1.healthLevel = 8;
