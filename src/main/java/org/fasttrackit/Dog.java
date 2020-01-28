@@ -5,7 +5,13 @@ public class Dog extends Pet {
     int barkingintensity;
 
 
-    public Dog(String favoriteFood, String favoriteActivity) {
-        super(favoriteFood, favoriteActivity);
+
+    public int getBarkingintensity() {
+        return barkingintensity;
     }
+
+    public void setBarkingintensity(int barkingintensity) {
+        this.barkingintensity = barkingintensity;
+    }
+
 }

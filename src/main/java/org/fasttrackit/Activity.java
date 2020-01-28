@@ -17,4 +17,12 @@ public class Activity {
     public Activity() {
 
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
