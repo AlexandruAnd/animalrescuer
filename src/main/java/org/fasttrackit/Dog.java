@@ -1,8 +1,8 @@
 package org.fasttrackit;
 
 public class Dog extends Pet {
-    String favoriteActivity = "Fetching";
-    String favoriteFood = "Beef";
+
+    int barkingintensity;
 
 
     public Dog(String favoriteFood, String favoriteActivity) {

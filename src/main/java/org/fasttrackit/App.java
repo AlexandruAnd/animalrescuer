@@ -29,9 +29,10 @@ public class App
 
 
 
+        Food dogFood = new Food();
+        dogFood.name = "Dog Food";
 
-
-        Food food = new Food();
+        Food food = new Food(dogFood);
         food.expirationDate = LocalDate.now().plusDays(30);
         food.name = "Dog Food";
         food.foodPrice = 18.5;
